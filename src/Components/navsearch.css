@@ -1,0 +1,5 @@
+.search:focus{
+   
+    border-color:"red";
+    outline-color:transparent;
+}

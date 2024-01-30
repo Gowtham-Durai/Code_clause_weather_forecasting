@@ -1,0 +1,44 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  overflow-x:hidden;
+  width:99vw;
+  height:100vh;
+  background-color: #a5d8ffda;
+  color: #47a9eb;
+}
+#root{
+  height: 100%;
+
+}
+::-webkit-scrollbar-thumb{
+  background-color: #47a9eb;
+  border-radius: 20px;
+  width: 8px;
+}
+body::-webkit-scrollbar{
+  background-color: white;
+  width: 8px;
+}
+input{text-decoration: none;}
+input::placeholder{
+  color: #47a9eb;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.cloud3 p{
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:590px) {
+  .weekcloud  .row{
+    gap: 20px;
+  }
+
+  .weekcloud .temp{
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "dt": 1706508000,
+    "main": {
+        "temp": 301.14,
+        "feels_like": 302.7,
+        "temp_min": 299.6,
+        "temp_max": 301.14,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1016,
+        "humidity": 61,
+        "temp_kf": 1.54
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "clouds": {
+        "all": 40
+    },
+    "wind": {
+        "speed": 5.58,
+        "deg": 40,
+        "gust": 5.43
+    },
+    "visibility": 10000,
+    "pop": 0,
+    "sys": {
+        "pod": "d"
+    },
+    "dt_txt": "2024-01-29 06:00:00"
+}
