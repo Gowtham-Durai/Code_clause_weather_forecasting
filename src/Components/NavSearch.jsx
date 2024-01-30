@@ -39,7 +39,7 @@ async function press(e,setData){
 export async function getData(loc,setData){
  
     if(loc.trim()==="")return ( 0);
-        const URL=`http://api.openweathermap.org/data/2.5/forecast?q=${loc}&appid=${api_key}`
+        const URL=`https://api.openweathermap.org/data/2.5/forecast?q=${loc}&appid=${api_key}`
         try {
             const response =await fetch(URL);
             weatherdata = await response.json();
