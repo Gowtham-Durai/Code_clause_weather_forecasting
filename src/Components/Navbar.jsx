@@ -30,7 +30,7 @@ export default function Navbar({data,setData}) {
         <Logo />
         <NavSearch data={data} setData={setData}  />
         <div style={navbarStyles.menu}>
-            <img src={menu} alt="menu" style={navbarStyles.menuImg} />
+            <img src={menu} alt="menu" style={navbarStyles.menuImg} className="menu"/>
         </div>
     </nav>);
 }

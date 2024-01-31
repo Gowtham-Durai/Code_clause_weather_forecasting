@@ -60,7 +60,7 @@ function App() {
                   <div className="cloud" style={app.cloud}>
                       <Cloud1 data={data}/>
                   </div>
-                  <div className="cloud" style={app.cloud}>
+                  <div className="cloud c2" style={app.cloud}>
                       <Cloud2  data={data}/>
                   </div>
                   <div className="cloud" style={app.cloud}>

@@ -46,10 +46,10 @@ function icon(props){
     }
 }
 export function Forecast(props){
-    return (<div style={{display:"flex",flexDirection:"column",letterSpacing:"0.03rem",justifyContent:"center",width:"7.2rem"}}>
+    return (<div  style={{display:"flex",flexDirection:"column",letterSpacing:"0.03rem",justifyContent:"center",width:"7.2rem"}}>
        
-        <h3 style={{marginBottom:"0",textAlign:"center"}}>{props.time}</h3> 
-        <img src={valueImage(props.weather)} alt="weather" loading="lazy" style={{width:"90%",height:"100%"}} />
+        <h3 style={{marginBottom:"0",marginTop:"0px",textAlign:"center"}}>{props.time}</h3> 
+        <img src={valueImage(props.weather)} alt="weather" loading="lazy" style={{width:"90%",height:"100%"}} className="forecast" />
         <h1 style={{margin:"0",fontSize:"2.2rem",textAlign:"center"}}>{props.temp}</h1>
 
     </div>);    
@@ -57,8 +57,8 @@ export function Forecast(props){
 
 export function WeatherDetails(props){
     return (<div >
-        <div style={{display:"flex",alignItems:"center",height:"0.5rem"}}>
-            <img src={icon(props)} alt="icon" style={{width:"1.5rem"}} />
+        <div className="weatherdetails" style={{display:"flex",alignItems:"center",height:"0.5rem"}}>
+            <img src={icon(props)} alt="icon" style={{width:"2rem"}} />
             <p>{props.text}:</p>
             
         </div>

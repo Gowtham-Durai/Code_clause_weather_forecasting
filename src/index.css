@@ -1,22 +1,29 @@
 
+html{
+  width: 100%;
+}
 
 body {
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
   overflow-x:hidden;
-  width:99vw;
+  width:100%;
   height:100vh;
   background-color: #a5d8ffda;
   color: #47a9eb;
 }
 #root{
+  width: 100%;
   height: 100%;
 
 }
-::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb{
   background-color: #47a9eb;
   border-radius: 20px;
-  width: 8px;
+  margin: 0; 
+  padding: 0;
+   width: 8px;
 }
 body::-webkit-scrollbar{
   background-color: white;
@@ -25,7 +32,7 @@ body::-webkit-scrollbar{
 input{text-decoration: none;}
 input::placeholder{
   color: #47a9eb;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: bold;
 }
 .cloud3 p{
@@ -33,12 +40,37 @@ input::placeholder{
 }
 
 
-@media screen and (max-width:590px) {
-  .weekcloud  .row{
-    gap: 20px;
-  }
 
+@media screen and (max-width:498px){
   .weekcloud .temp{
     visibility: hidden;
+  } 
+  .weekcloud  .row{
+    gap: 2vw;
+  }
+  input::placeholder{
+    font-size: 3.4vw;
+  }
+  .weatherdetails{
+    height:1rem !important;
+  }
+  .cloud3 h2{
+    font-size: 2vw;
+  }
+  h1{
+    font-size:1vw;
+  }
+  h4{
+    font-size:4vw;
+  }
+  h2{
+    font-size:4vw;
+  }
+  .menu{
+    display: none;
+  }
+  .cloud h2{
+    
+    font-size: 4vw;
   }
 }
